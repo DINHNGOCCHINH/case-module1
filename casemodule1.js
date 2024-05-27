@@ -93,7 +93,7 @@ function display() {
 display();
 
 function deleteStudent(index) {
-    let check = confirm("bạn có chắc muốn xóa STT " + (index + 1))
+    let check = confirm("bạn có muốn xóa STT " + (index + 1))
     if (check) {
         students.splice(index, 1);
         display();
